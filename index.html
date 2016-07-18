@@ -1,32 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Michael McAuliffe : Computational phonetician">
+    <title>Michael McAuliffe by mmcauliffe</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Michael McAuliffe</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Michael McAuliffe</h1>
+        <p class="header">Computational phonetician</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mmcauliffe">View on GitHub</a>
 
-          <h1 id="project_title">Michael McAuliffe</h1>
-          <h2 id="project_tagline">Computational phonetician</h2>
 
-        </header>
-    </div>
+        <ul>
+          <li><a class="buttons github" href="https://github.com/mmcauliffe">GitHub Profile</a></li>
+        </ul>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      </header>
+      <section>
         <p>I am currently a postdoctoral research fellow at McGill University working primarily with Morgan Sonderegger and Michael Wagner. I received my PhD from the University of British Columbia. My thesis was on lexically-guided perceptual learning and attention (available <a href="https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0166424">here</a>, code available <a href="https://github.com/mmcauliffe/mcauliffe-phd">here</a>). Much of my computational research on GitHub deals with speech sounds in spontaneous and laboratory speech, and in the ways that signal processing techniques can represent those sounds.</p>
 
 <h2>
@@ -38,6 +38,11 @@
 <p><a href="https://github.com/MontrealCorpusTools/speechcorpustools">Speech Corpus Tools</a> is a graphical application for interacting, querying, and visualizing large speech corpora.  It parses a wide range of formats into a database, which allow for fast and consistent queries across different sources of corpora.  <a href="https://github.com/MontrealCorpusTools/PolyglotDB">PolyglotDB</a> is the package responsible for the storage and database aspects.</p>
 
 <h3>
+<a id="montreal-forced-aligner" class="anchor" href="#montreal-forced-aligner" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Montreal Forced Aligner</h3>
+
+<p><a href="https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner">Montreal Forced Aligner</a> is a command line utility for performing forced alignment on audio datasets using orthographic transcriptions and a pronunciation dictionary.  It is trainable on larger datasets and can align smaller datasets through pretrained models.  It is built using <a href="http://kaldi-asr.org/">Kaldi</a>.</p>
+
+<h3>
 <a id="python-acoustic-similarity" class="anchor" href="#python-acoustic-similarity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>python-acoustic-similarity</h3>
 
 <p><a href="https://github.com/mmcauliffe/python-acoustic-similarity">Python-acoustic-similary</a> represents most of my work in signal processing for creating MFCC, amplitude envelope, and gammatone representations of speech.  Future versions will also include algorithms to calculate linguistically-relevant measurements such as pitch and formants.</p>
@@ -47,16 +52,12 @@
 
 <p><a href="https://github.com/PhonologicalCorpusTools/CorpusTools">Phonological CorpusTools</a> has Python implementations of algorithms reported in the linguistic literature with the ability to run these algorithms on a wide variety of corpora.  The primary contributors to this project are Kathleen Currie Hall (<a href="https://github.com/kchall" class="user-mention">@kchall</a>), Blake Allen (<a href="https://github.com/bhallen" class="user-mention">@bhallen</a>), Michael Fry (<a href="https://github.com/mdfry" class="user-mention">@mdfry</a>), Scott Mackie (<a href="https://github.com/jsmackie" class="user-mention">@jsmackie</a>) and myself.</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
-
-              <script type="text/javascript">
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		          <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -66,7 +67,6 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
